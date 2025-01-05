@@ -24,27 +24,27 @@ const Ideas = () => {
                     </div>
                     <div className='flex items-end w-[35] h-full'>
                         <div className='bg-white  w-full'>
-                            <Image src={img1} alt='' />
+                            <Image src={img2} alt='' />
                         </div>
                     </div>
                     <div className='flex items-center w-[35] h-full'>
                         <div className='bg-white  w-full'>
-                            <Image src={img1} alt='' />
+                            <Image src={img3} alt='' />
                         </div>
                     </div>
                     <div className='flex items-end w-[35] h-full'>
                         <div className='bg-white  w-full'>
-                            <Image src={img1} alt='' />
+                            <Image src={img4} alt='' />
                         </div>
                     </div>
                     <div className='flex items-start w-[35] h-full'>
                         <div className='bg-white  w-full'>
-                            <Image src={img1} alt='' />
+                            <Image src={img5} alt='' />
                         </div>
                     </div>
                     <div className='flex items-end w-[35] h-full'>
                         <div className='bg-white  w-full'>
-                            <Image src={img1} alt='' />
+                            <Image src={img6} alt='' />
                         </div>
                     </div>
                 </div>
