@@ -10,7 +10,7 @@ import img6 from '../public/images/img6.jpg'
 const Ideas = () => {
     return (
         <div>
-            <div className="w-full my-5 flex justify-center items-center flex-col py-5 text-center h-[600px] relative z-50 bg-[#030908]">
+            <div className="w-full my-5 flex justify-center items-center flex-col py-5 text-center h-[700px] relative z-50 bg-[#030908]">
                 <h1 className='text-5xl py-2 text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-500 my-2'>We build people < br />
 
                     beyond ideas</h1>
