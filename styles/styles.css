@@ -1,7 +1,30 @@
 .bg-clip-text {
-    -webkit-background-clip: text;
-    background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.text-transparent {
+  color: transparent;
+}
+
+/* Line running through the center of the timeline */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  background-color: var(--main-color, #39b189);
+  transform: translateX(-50%);
+  z-index: -1;
+  height: 0;
+  animation: moveline 10s linear forwards;
+}
+
+@keyframes moveline {
+  0% {
+    height: 0;
   }
-  .text-transparent {
-    color: transparent;
+  100% {
+    height: 100%;
   }
+}
