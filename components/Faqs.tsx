@@ -12,17 +12,17 @@ const Faqs = () => {
   return (
     <div>
       <div className="w-full lg:px-[150px] flex justify-center flex-col items-center mt-5">
-        <h1 className="text-7xl  text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-600 py-4">Your Questions Answered</h1>
-       <div className='lg:w-[650px] mt-4 px-20px sm:w-[300px]'>
+        <h1 className="lg:text-7xl  text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-600 py-4 text-3xl text-center">Your Questions Answered</h1>
+       <div className='lg:w-[650px] mt-4 px-20px'>
        {faqItems.map((item, index) => (
-          <div key={index} className="mb-2 border-t-2 ">
+          <div key={index} className="mb-2 border-t-2 border-[#cce6e0] ">
             <button
               onClick={() => toggle(index)}
-              className="flex justify-between w-full text-left text-lg font-semibold py-2  text-white hover:text-white focus:outline-none transition duration-300"
+              className="flex justify-between w-full text-left text-lg font-medium py-2 focus:outline-none transition duration-300"
               aria-expanded={open === index ? 'true' : 'false'}
             >
-              {item.question}
-              <span className="text-xl">{open === index ? <IoIosArrowUp/> : <IoIosArrowDown/>}</span>
+             <p className='text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-600'> {item.question}</p>
+              <span className="text-xl text-white">{open === index ? <IoIosArrowUp/> : <IoIosArrowDown/>}</span>
             </button>
 
               {open === index && (
