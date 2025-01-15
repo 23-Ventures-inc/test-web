@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 {/* Desktop Links */}
                 <div className="hidden md:flex gap-x-5 items-center font-sans">
-                    <Link href="/studio" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Studio</Link>
+                    <Link href="/process" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Process</Link>
                     <Link href="/Fellowship" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Fellowship</Link>
                     <Link href="/Portfolio" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Portfolio</Link>
                     <Link href="/Lab" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Lab</Link>

@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="flex text-white justify-between gap-x-2 lg:px-[200px] items-center my-4 lg:flex-nowrap flex-wrap">
         <div><h2 className='text-[14px]'>© 2024 Founders, Inc</h2></div>
         <div className='links flex gap-x-4'>
-          {['Studio', 'Fellowship', 'Portfolio', 'Lab', 'Team'].map((item, index) => (
+          {['Process', 'Fellowship', 'Portfolio', 'Lab', 'Team'].map((item, index) => (
             <Link
               key={index}
               href={''}

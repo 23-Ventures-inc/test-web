@@ -10,10 +10,10 @@ const Hero = () => {
     return (
         <div>
             <div className="w-full flex justify-center items-center flex-col text-center h-[90vh] overflow-x-hidden overflow-y-hidden">
-                <h1 className='text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-600 to-white py-4 px-2'>Where Entrepreneurs
+                <h1 className='text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-600 to-white py-4 px-2 z-10'>Where Entrepreneurs
                     <br />
                     don’t stop dreaming !</h1>
-                <div className='flex justify-center items-center bg-[#EBEBEB] px-6 py-3 rounded-3xl text-[16px] my-4 font-medium'>APPLY for
+                <div className='flex justify-center items-center bg-[#EBEBEB] px-6 py-3 rounded-3xl text-[16px] my-4 font-medium z-10'>APPLY for
 
                     Summer Batch 2025</div>
             </div>
