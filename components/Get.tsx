@@ -2,7 +2,7 @@ import React from 'react';
 
 const Get = () => {
     return (
-        <div className="w-full flex justify-center items-center px-4 my-12">
+        <div className="w-full flex justify-center items-center px-4 my-12 py-12">
             <div className="flex flex-col lg:flex-row lg:justify-evenly lg:items-start bg-[#08100d] w-full max-w-[1200px] h-auto lg:h-[500px] my-5 rounded-3xl lg:gap-x-6 p-6 sm:justify-center sm:items-center">
                 {/* "Give" Section */}
                 <div className="flex flex-col text-center lg:text-left">

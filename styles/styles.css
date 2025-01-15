@@ -28,3 +28,24 @@
     height: 100%;
   }
 }
+
+
+/* 
+.timeline-container .p-timeline-event:nth-child(odd) .p-timeline-content {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.timeline-container .p-timeline-event:nth-child(even) .p-timeline-content {
+  text-align: right;
+  margin-right: 30px;
+} */
+
+/* Override for small screens (mobile) */
+/* @media (max-width: 768px) {
+  .timeline-container .p-timeline-event .p-timeline-content {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+} */
