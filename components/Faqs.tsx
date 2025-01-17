@@ -12,8 +12,8 @@ const Faqs = () => {
     };
   return (
     <div>
-      <div className="w-full lg:px-[150px] flex justify-center flex-col items-center mt-5">
-        <h1 className="lg:text-6xl  text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-600 py-4 text-3xl text-center font-medium">Your Questions Answered</h1>
+      <div className="w-full lg:px-[150px] flex justify-center flex-col items-center mt-5" data-scroll >
+        <h1 className="lg:text-6xl  text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-600 py-4 text-3xl text-center font-medium" data-scroll-speed="0.9">Your Questions Answered</h1>
        <div className='lg:w-[650px] mt-4 px-20px'>
        {faqItems.map((item, index) => (
           <div key={index} className="mb-2 border-t-2 border-[#cce6e0] ">

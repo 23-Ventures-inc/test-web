@@ -1,15 +1,27 @@
 'use client'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Ideas from './ideas'
 import Pathway from './Pathway'
 import Image from 'next/image'
 import { companies } from '@/data'
 import Subscribe from './subscribe'
+import withLocomotiveScroll from '@/hoc/LocomotiveWrapper'
 
 const Hero = () => {
+
+
+    const [isClient, setIsClient] = useState(false);
+    useEffect(() => {
+        setIsClient(true);
+      }, []);
+    
+      if (!isClient) {
+        return null;
+      }
+
     return (
         <div>
-            <div className="w-full flex justify-center items-center flex-col text-center h-[90vh] overflow-x-hidden overflow-y-hidden">
+            <div className="w-full flex justify-center items-center flex-col text-center h-[90vh] overflow-x-hidden overflow-y-hidden" data-scroll data-scroll-speed="0.9">
                 <h1 className='text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-600 to-white py-4 px-2 z-10'>Where Entrepreneurs
                     <br />
                     don’t stop dreaming !</h1>
@@ -41,9 +53,8 @@ const Hero = () => {
             </div>
       </div>
       <Subscribe/>
-           
         </div>
     )
 }
 
-export default Hero
+export default withLocomotiveScroll(Hero)

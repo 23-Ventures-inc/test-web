@@ -24,10 +24,6 @@ const Navbar = () => {
                 {/* Desktop Links */}
                 <div className="hidden md:flex gap-x-5 items-center font-sans">
                     <Link href="/process" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Process</Link>
-                    <Link href="/Fellowship" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Fellowship</Link>
-                    <Link href="/Portfolio" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Portfolio</Link>
-                    <Link href="/Lab" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Lab</Link>
-                    <Link href="/Team" className="hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Team</Link>
                     <div className="flex justify-center items-center bg-[#EBEBEB] px-5 py-3 rounded-3xl text-[14px]">
                         <Link href="/" className="hover:text-[#ffff00] text-[12px]">Apply</Link>
                         <FaArrowRight className="text-[12px]" />
@@ -46,10 +42,6 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="md:hidden bg-[#04090e] px-4 py-4 space-y-3">
                     <Link href="/" onClick={toggleMenu} className="block hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Studio</Link>
-                    <Link href="/Fellowship" onClick={toggleMenu} className="block hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Fellowship</Link>
-                    <Link href="/Portfolio" onClick={toggleMenu} className="block hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Portfolio</Link>
-                    <Link href="/Lab" onClick={toggleMenu} className="block hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Lab</Link>
-                    <Link href="/Team" onClick={toggleMenu} className="block hover:text-[#EBEBEB] text-[#95959b] text-[14px]">Team</Link>
                     <div className="flex justify-center items-center bg-[#EBEBEB] px-4 py-2 rounded-3xl text-[14px] gap-x-1">
                         <Link href="/" onClick={toggleMenu} className="hover:text-[#ffff00] text-[14px]">Apply</Link>
                         <FaArrowRight className="text-[14px]" />

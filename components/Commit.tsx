@@ -8,9 +8,9 @@ import Image from 'next/image'
 const Commit = () => {
     return (
         <div>
-            <div className="flex my-12 justify-evenly align-center lg:px-[150px]  lg:flex-nowrap flex-wrap py-12">
+            <div className="flex my-12 justify-evenly align-center lg:px-[150px]  lg:flex-nowrap flex-wrap py-12" data-scroll data-scroll-speed="0.9">
                 <div className='text-center'>
-                    <h1 className='text-white text-5xl font-medium text-transparent bg-gradient-to-r from-white to-slate-600 bg-clip-text'>
+                    <h1 className='text-white text-5xl font-medium text-transparent bg-gradient-to-r from-white to-slate-600 bg-clip-text' data-scroll data-scroll-speed="0.9">
                         every season <br />
                         we commit
                     </h1>
@@ -25,7 +25,7 @@ const Commit = () => {
 
                             with connecting Vc’s</p>
                     </div>
-                    <div className='flex items-center justify-center'><Image src={icon3} alt='dollor' width={64} height={64}/>
+                    <div className='flex items-center justify-center'><Image src={icon3} alt='dollor' width={64} height={64} data-scroll data-scroll-speed="0.9"/>
                       <div className='flex flex-col'>
                       <p className=' text-transparent bg-gradient-to-r from-white to-slate-500 bg-clip-text font-medium'>   5 startup founder’s to present themselves and
                             be with us for the long time </p>

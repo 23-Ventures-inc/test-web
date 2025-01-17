@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import mainimage from '../../public/images/MuCIYKFPhmwssTeOgFOFuYJ4J8.svg'
 import Image from 'next/image'
 import Build from '@/components/build'
@@ -9,9 +9,18 @@ import Studio from '@/components/Studio'
 import Faqs from '@/components/Faqs'
 import Process from '@/components/Process'
 import Commit from '@/components/Commit'
+import withLocomotiveScroll from '@/hoc/LocomotiveWrapper'
 
 
-const Hero = () => {
+const ProcessPage = () => {
+    const [isClient, setIsClient] = useState(false);
+    useEffect(() => {
+        setIsClient(true);
+      }, []);
+    
+      if (!isClient) {
+        return null;
+      }
     return (
         <div>
             <div className="w-full flex justify-center items-center flex-col text-center h-[90vh] text-white overflow-x-hidden overflow-y-hidden">
@@ -32,4 +41,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default withLocomotiveScroll(ProcessPage);

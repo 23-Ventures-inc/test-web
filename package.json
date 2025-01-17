@@ -13,6 +13,8 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.7.1",
     "framer-motion": "^11.15.0",
+    "imagesloaded": "^5.0.0",
+    "locomotive-scroll": "^4.1.4",
     "next": "15.1.2",
     "primereact": "^10.9.1",
     "react": "^19.0.0",
@@ -22,6 +24,8 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/imagesloaded": "^4.1.6",
+    "@types/locomotive-scroll": "^4.1.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
